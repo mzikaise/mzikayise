@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Site Title -->
+        <title>Kora</title>
+        <!-- Site Logo -->
+        <link href="./assets/image/logo.png" rel="shortcut icon" type="image/x-icon">
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+        <!-- Fonts - Start includes Fonts From Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700" rel="stylesheet">
+        <!--     Fonts and icons     -->
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+        <!-- CSS Files -->
+        <link href="./assets/css/material-kit.css?v=2.0.4" rel="stylesheet" />
+        <!-- CSS Just for demo purpose, don't include it in your project -->
+        <link href="./assets/demo/demo.css" rel="stylesheet" />
+        <!-- customize style css -->
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/timeline.css">
+    </head>
+    <body class="sidebar-collapse" id="home">
+
+        <!--start navigation bar -->
+        <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
+            <div class="container">
+                <div class="navbar-translate">
+                    <a class="navbar-brand" href="#">
+                    Kora</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link btn-home" href="javascript:void(0)" onclick="scrollToHome()">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link btn-about-me" href="javascript:void(0)" onclick="scrollToAboutMe()">
+                                about me
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-services" href="javascript:void(0)" onclick="scrollToServices()">
+                                Services
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-education" href="javascript:void(0)" onclick="scrollToEducation()">
+                                education
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-experience" href="javascript:void(0)" onclick="scrollToExperience()">
+                                Experience
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-portfolio" href="javascript:void(0)" onclick="scrollToPortfolio()">
+                                Portfolio
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-blog" href="javascript:void(0)" onclick="scrollToBlog()">
+                                blog
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-contact" href="javascript:void(0)" onclick="scrollToContact()">
+                                contact
+                            </a>
+                        </li>
+
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="#" target="_blank" data-original-title="Follow us on Twitter">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="#" target="_blank" data-original-title="Like us on Facebook">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="#" target="_blank" data-original-title="Follow us on Instagram">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--end navigation bar -->
+
+        <!--start Home -->
+        <div class="page-header header-filter clear-filter purple-filter" data-parallax="true">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="brand">
+                            <h1>I'm Mzikayise ntolo</h1>
+                            <p>Web Design|UX/UI designer|App Designer|Photography</p>
+                        </div>
+                        <button class="btn btn-white" href="javascript:void(0)" onclick="scrollToContact()"><i class="material-icons">question_answer</i> contact me</button>
+                    </div>
+                </div>
+            </div>
+            <a href="javascript:void(0)" onclick="scrollToAboutMe()" class="next scrolly btn-about-me">Next</a>
+
+        </div>
+        <!--end Home -->
+
+        <!--start about me -->
+        <div class="main" id="about-me">
+            <div class="section section-basic">
+                <div class="container">
+                    <div class="about row">
+                        <!--start personal picture-->
+                        <div class="picture-personal col-lg-4 col-md-4 col-sm-12 p-3 ml-auto">
+                            <img src="assets/image/faces/ttr.jpg" alt="Raised Image" class="img-raised img-fluid w-100">
+                        </div>
+                        <!--end personal picture -->
+                        <div class="col-lg-8 col-md-8 col-sm-12 p-3 ml-auto">
+                            <div class="col-md-12 col-sm-12 mh-50">
+                                <div class="title">
+                                    <h2 class="title">About Me  ?</h2>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eleifend, nisl ac suscipit dapibus, elit sem hendrerit lorem, nec fringilla ex massa at metus. Mauris non ullamcorper ligula. Proin nec magna eget enim porta placerat proin nec magna eget enim porta placerat.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eleifend, nisl ac suscipit dapibus, elit sem hendrerit lorem, nec fringilla ex massa at metus. Mauris non ullamcorper ligula. Proin nec magna eget enim porta placerat.
+                                </p>
+
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <a href="#" target="_blank">
+                                    <button href="#" class="btn btn-white btn-round text-dark  btn-here-me">
+                                    here me
+                                    </button>
+                                    <button href="#" class="btn btn-primary btn-round">
+                                    <i class="material-icons">get_app</i> download cv
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end about me -->
+
+        <!--start services -->
+        <div class="main" id="services">
+            <div class="section section-tabs">
+                <div class="container">
+                    <!--start title of section -->
+                    <div class="row">
+                        <div class="title mr-auto ml-auto text-center">
+                            <h2 class="title text-cente ">My Services</h2>
+                        </div>
+                    </div>
+                    <!--end title of section -->
+                    <div class="row">
+                        <!-- start Item  services-->
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 p-3">
+                            <div class="info-services  text-center bg-white p-4">
+                                <div class="icon text-primary">
+                                    <i class="material-icons">
+                                    important_devices
+                                    </i>
+                                </div>
+                                <h4 class="title m-0 p-0">Web Design</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consect adipiscing elit. Etiam eleifend, nisl ac suscipit.
+                                    Lorem ipsum dolor sit amet, consect adipiscing elit. Etiam eleifend, nisl ac suscipit.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- end Item  services-->
+                        <!-- start Item  services-->
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 p-3">
+                            <div class="info-services  text-center bg-white p-4">
+                                <div class="icon text-primary">
+                                    <i class="material-icons">
+                                    color_lens
+                                    </i>
+                                </div>
+                                <h4 class="title m-0 p-0">UI/UX Design</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consect adipiscing elit. Etiam eleifend, nisl ac suscipit.
+                                    Lorem ipsum dolor sit amet, consect adipiscing elit. Etiam eleifend, nisl ac suscipit.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- end Item  services-->
+                        <!-- start Item  services-->
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 p-3">
+                            <div class="info-services  text-center bg-white p-4">
+                                <div class="icon text-primary">
+                                    <i class="material-icons">
+                                    stay_primary_portrait
+                                    </i>
+                                </div>
+                                <h4 class="title m-0 p-0">App Designer</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consect adipiscing elit. Etiam eleifend, nisl ac suscipit.
+                                    Lorem ipsum dolor sit amet, consect adipiscing elit. Etiam eleifend, nisl ac suscipit.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- end Item  services-->
+                        <!-- start Item  services-->
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 p-3">
+                            <div class="info-services  text-center bg-white p-4">
+                                <div class="icon text-primary">
+                                    <i class="material-icons">
+                                    photo_camera
+                                    </i>
+                                </div>
+                                <h4 class="title m-0 p-0">Photography</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consect adipiscing elit. Etiam eleifend, nisl ac suscipit.
+                                    Lorem ipsum dolor sit amet, consect adipiscing elit. Etiam eleifend, nisl ac suscipit.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- end Item  services-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end services -->
+
+        <!--start Education -->
+        <div class="main" id="education">
+            <div class="section section-basic">
+                <!--start title section education -->
+
+                <div class="container" >
+                    <div class="title mr-auto ml-auto text-center">
+                        <h2 class="title text-cente ">Education</h2>
+                    </div>
+
+                    <!--end title section education -->
+                    <div class="row">
+
+
+
+                        <div class="container-fluid">
+                            <div class="container">
+                                <!--first section-->
+
+
+                                <div class="row align-items-center how-it-works">
+                                    <div class="col-2 text-center bottom">
+                                        <div class="circle">1</div>
+                                    </div>
+
+                                    <!--start item education -->
+                                    <div class="col-10">
+                                        <div class="col-md-8">
+                                            <h4 class="title m-0 p-0">Title consectetur adipiscing</h4>
+                                            <span class="badge badge-pill badge-primary l-3">From: 21/11/2017</span>
+                                            <span class="badge badge-pill badge-primary l-3">To: 21/11/2018</span>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!--end item education -->
+
+                                </div>
+
+
+                                <!--path between 1-2-->
+                                <div class="row timeline">
+                                    <div class="col-2">
+                                        <div class="corner top-right"></div>
+                                    </div>
+                                    <div class="col-8">
+                                        <hr/>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="corner left-bottom"></div>
+                                    </div>
+                                </div>
+                                <!--second section-->
+                                <div class="row align-items-center justify-content-end how-it-works">
+
+                                    <!--start item education -->
+                                    <div class="col-10 text-right">
+                                        <div class="col-md-8 float-right">
+                                            <h4 class="title m-0 p-0">Title consectetur adipiscing</h4>
+                                            <span class="badge badge-pill badge-primary l-3">From: 21/11/2017</span>
+                                            <span class="badge badge-pill badge-primary l-3">To: 21/11/2018</span>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!--end item education -->
+
+                                    <div class="col-2 text-center full">
+                                        <div class="circle">2</div>
+                                    </div>
+                                </div>
+                                <!--path between 2-3-->
+                                <div class="row timeline">
+                                    <div class="col-2">
+                                        <div class="corner right-bottom"></div>
+                                    </div>
+                                    <div class="col-8">
+                                        <hr/>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="corner top-left"></div>
+                                    </div>
+                                </div>
+                                <!--third section-->
+                                <div class="row align-items-center how-it-works">
+                                    <div class="col-2 text-center full-right">
+                                        <div class="circle">3</div>
+                                    </div>
+
+                                    <div class="col-10">
+
+                                    <!--start item education -->
+                                        <div class="col-md-8">
+                                            <h4 class="title m-0 p-0">Title consectetur adipiscing</h4>
+                                            <span class="badge badge-pill badge-primary l-3">From: 21/11/2017</span>
+                                            <span class="badge badge-pill badge-primary l-3">To: 21/11/2018</span>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.
+                                            </p>
+                                        </div>
+                                    <!--end item education -->
+
+                                    </div>
+                                </div>
+                                <!--path between 3-4-->
+                                <div class="row timeline">
+                                    <div class="col-2">
+                                        <div class="corner top-right"></div>
+                                    </div>
+                                    <div class="col-8">
+                                        <hr/>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="corner left-bottom"></div>
+                                    </div>
+                                </div>
+                                <!--second section-->
+                                <div class="row align-items-center justify-content-end how-it-works">
+
+                                    <div class="col-10 text-right">
+
+                                    <!--start item education -->
+                                        <div class="col-md-8 float-right">
+                                            <h4 class="title m-0 p-0">Title consectetur adipiscing</h4>
+                                            <span class="badge badge-pill badge-primary l-3">From: 21/11/2017</span>
+                                            <span class="badge badge-pill badge-primary l-3">To: 21/11/2018</span>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.
+                                            </p>
+                                        </div>
+                                    <!--end item education -->
+
+                                    </div>
+                                    <div class="col-2 text-center top">
+                                        <div class="circle">4</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end Education -->
+        <!--start My Experience -->
+        <div class="main" id="experience">
+            <div class="section section-tabs">
+                <div class="container">
+                    <!--start title section my experience -->
+                    <div class="title mr-auto ml-auto text-center">
+                        <h2 class="title text-cente">My Experience</h2>
+                    </div>
+                    <!--end title section my experience -->
+                    <div class="row">
+
+
+
+                        <div class="container-fluid">
+                            <div class="container">
+                                <!--section 1-->
+                                <div class="row align-items-center how-it-works">
+                                    <div class="col-2 text-center bottom">
+                                        <div class="circle">1</div>
+                                    </div>
+                                    <div class="col-10">
+
+                                     <!--start item my experience -->
+                                        <div class="col-md-8">
+                                            <h4 class="title m-0 p-0">Title consectetur adipiscing</h4>
+                                            <span class="badge badge-pill badge-primary l-3">From: 21/11/2017</span>
+                                            <span class="badge badge-pill badge-primary l-3">To: 21/11/2018</span>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.
+                                            </p>
+                                        </div>
+                                    <!--end item my experience -->
+
+                                    </div>
+                                </div>
+                                <!--path between 1-2-->
+                                <div class="row timeline">
+                                    <div class="col-2">
+                                        <div class="corner top-right"></div>
+                                    </div>
+                                    <div class="col-8">
+                                        <hr/>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="corner left-bottom"></div>
+                                    </div>
+                                </div>
+                                <!--section 2-->
+                                <div class="row align-items-center justify-content-end how-it-works">
+
+                                    <div class="col-10 text-right">
+
+                                      <!--start item my experience -->
+                                        <div class="col-md-8 float-right">
+                                            <h4 class="title m-0 p-0">Title consectetur adipiscing</h4>
+                                            <span class="badge badge-pill badge-primary l-3">From: 21/11/2017</span>
+                                            <span class="badge badge-pill badge-primary l-3">To: 21/11/2018</span>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.
+                                            </p>
+                                        </div>
+                                       <!--end item my experience -->
+
+                                    </div>
+                                    <div class="col-2 text-center full">
+                                        <div class="circle">2</div>
+                                    </div>
+                                </div>
+                                <!--path between 2-3-->
+                                <div class="row timeline">
+                                    <div class="col-2">
+                                        <div class="corner right-bottom"></div>
+                                    </div>
+                                    <div class="col-8">
+                                        <hr/>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="corner top-left"></div>
+                                    </div>
+                                </div>
+                                <!--section 3-->
+                                <div class="row align-items-center how-it-works">
+                                    <div class="col-2 text-center full-right">
+                                        <div class="circle">3</div>
+                                    </div>
+
+                                    <div class="col-10">
+
+                                  <!--start item my experience -->
+                                    <div class="col-md-8">
+                                        <h4 class="title m-0 p-0">Title consectetur adipiscing</h4>
+                                        <span class="badge badge-pill badge-primary l-3">From: 21/11/2017</span>
+                                        <span class="badge badge-pill badge-primary l-3">To: 21/11/2018</span>
+                                                <p>
+                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.
+                                               </p>
+                                     </div>
+                                    <!--end item my experience -->
+
+                                    </div>
+                                </div>
+                                <!--path between 3-4-->
+                                <div class="row timeline">
+                                    <div class="col-2">
+                                        <div class="corner top-right"></div>
+                                    </div>
+                                    <div class="col-8">
+                                        <hr/>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="corner left-bottom"></div>
+                                    </div>
+                                </div>
+                                <!--section 4-->
+                                <div class="row align-items-center justify-content-end how-it-works">
+
+                                    <div class="col-10 text-right">
+
+                                     <!--start item my experience -->
+                                        <div class="col-md-8 float-right">
+                                            <h4 class="title m-0 p-0">Title consectetur adipiscing</h4>
+                                            <span class="badge badge-pill badge-primary l-3">From: 21/11/2017</span>
+                                            <span class="badge badge-pill badge-primary l-3">To: 21/11/2018</span>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.
+                                            </p>
+                                        </div>
+                                     <!--end item my experience -->
+
+                                    </div>
+                                    <div class="col-2 text-center top">
+                                        <div class="circle">4</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end My Experience  -->
+
+        <!-- start My portfolio -->
+        <div class="main" id="portfolio">
+            <div class="section section-basic">
+                <div class="container">
+                    <div class="title">
+                        <div class="profile-content">
+                            <div class="container">
+
+                                <!-- start title section my portfolio -->
+                                <div class="title mr-auto ml-auto text-center">
+                                    <h2 class="title text-cente ">My Portfolio</h2>
+                                </div>
+                                <!-- end title section my portfolio -->
+
+                                <div class="row">
+
+                                    <!--start menu portfolio -->
+                                    <div class="col-md-12 ml-auto mr-auto">
+                                        <div class="profile-tabs">
+                                            <ul class="nav nav-pills nav-pills-icons justify-content-center" role="tablist">
+                                                <li class="nav-item item-nav-portfolio">
+                                                    <a class="nav-link active control" data-filter="all"  role="tab" data-toggle="tab">
+                                                        <i class="material-icons">camera</i> ALL
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item item-nav-portfolio">
+                                                    <a class="nav-link control" data-filter=".blue"   role="tab" data-toggle="tab">
+                                                        <i class="material-icons">palette</i> UI/UX Design
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item item-nav-portfolio">
+                                                    <a class="nav-link control" data-filter=".green"   role="tab" data-toggle="tab">
+                                                        <i class="material-icons">favorite</i> PHOTOGRAPHY
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item item-nav-portfolio">
+                                                    <a class="nav-link" data-filter=".pink"   role="tab" data-toggle="tab">
+                                                        <i class="material-icons">web</i> WEB DESIGN
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item item-nav-portfolio">
+                                                    <a class="nav-link" data-filter=".yellow"   role="tab" data-toggle="tab">
+                                                        <i class="material-icons">android</i>APP-DESIGNER
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--end menu portfolio -->
+                                </div>
+
+                                <!--start container of image -->
+                                <div class="tab-content tab-space allCat">
+                                    <div class="row ml-auto">
+                                        <div class="col-md-4 mix blue p-2">
+                                            <img src="assets/image/examples/p5.jpg" class="w-100">
+                                        </div>
+                                        <div class="col-md-4 mix blue p-2">
+                                            <img src="assets/image/examples/p6.jpg" class="w-100">
+                                        </div>
+                                        <div class="col-md-4 mix green p-2">
+                                            <img src="assets/image/examples/p4.jpg" class="w-100">
+                                        </div>
+                                        <div class="col-md-4 mix pink p-2">
+                                            <img src="assets/image/examples/po1.jpg" class="w-100">
+                                        </div>
+                                        <div class="col-md-4 mix pink p-2">
+                                            <img src="assets/image/examples/p2.jpg" class="w-100">
+                                        </div>
+                                        <div class="col-md-4 mix yellow p-2">
+                                            <img src="assets/image/examples/p3.jpg" class="w-100">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--end container of image -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end My portfolio -->
+
+        <!--start My blog -->
+
+        <div class="main" id="blog">
+            <div class="section section-tabs">
+
+                <!--start title section my blogs -->
+                <div class="container">
+                    <div class="title mr-auto ml-auto text-center">
+                        <h2 class="title text-cente ">My Blogs</h2>
+                    </div>
+                    <!--end title section my blogs -->
+
+                    <div class="row">
+
+                        <!--start item my blogs -->
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 box-blog section-tabs p-3">
+                            <div class="col-md-12 blog-item bg-white blog-col">
+                                <div class="row blog-picture">
+                                    <img src="./assets/image/examples/b1.jpeg" width="100%" height="100%" alt="Blog Image">
+                                </div>
+                                <div class="row pb-2">
+
+                                    <div class="col-md-10 col-sm-4 ml-auto mr-auto text-center">
+                                        <h4 class="title m-0 p-0">Lorem ipsum dolor sit amet </h4>
+                                        <span class="badge badge-pill badge-default">11 DES 2018 TECH</span>
+
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 ml-auto mr-auto pt-0">
+                                        <p>
+                                            Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet...
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end item my blogs -->
+
+                        <!--start item my blogs -->
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 box-blog section-tabs p-3">
+                            <div class="col-md-12 blog-item bg-white blog-col">
+                                <div class="row blog-picture">
+                                    <img src="./assets/image/examples/b2.jpeg" width="100%" height="100%" alt="Blog Image">
+                                </div>
+                                <div class="row pb-2">
+
+                                    <div class="col-md-10 col-sm-4 ml-auto mr-auto text-center">
+                                        <h4 class="title m-0 p-0">Lorem ipsum dolor sit amet </h4>
+                                        <span class="badge badge-pill badge-default">11 DES 2018 TECH</span>
+
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 ml-auto mr-auto pt-0">
+                                        <p>
+                                            Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet...
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end item my blogs -->
+
+                        <!--start item my blogs -->
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 box-blog section-tabs p-3">
+                            <div class="col-md-12 blog-item bg-white blog-col">
+                                <div class="row blog-picture">
+                                    <img src="./assets/image/examples/b3.jpeg" width="100%" height="100%" alt="Blog Image">
+                                </div>
+                                <div class="row pb-2">
+
+                                    <div class="col-md-10 col-sm-4 ml-auto mr-auto text-center">
+                                        <h4 class="title m-0 p-0">Lorem ipsum dolor sit amet </h4>
+                                        <span class="badge badge-pill badge-default">11 DES 2018 TECH</span>
+
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 ml-auto mr-auto pt-0">
+                                        <p>
+                                            Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet...
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--end item my blogs -->
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12 mr-auto ml-auto p-5">
+
+                            <!--start pagination of blogs -->
+                            <ul class="pagination pagination-default">
+                                <li class="page-item">
+                                    <a href="javascript:void(0);" class="page-link"> prev</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="javascript:void(0);" class="page-link">1</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="javascript:void(0);" class="page-link">2</a>
+                                </li>
+                                <li class="active page-item">
+                                    <a href="javascript:void(0);" class="page-link">3</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="javascript:void(0);" class="page-link">4</a>
+                                </li>
+
+                                <li class="page-item">
+                                    <a href="javascript:void(0);" class="page-link">next </a>
+                                </li>
+                            </ul>
+                            <!--end pagination of blogs -->
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--end My blog -->
+
+        <!-- start contact -->
+        <div class="section section-contacts bg-white" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto">
+
+                        <!--start title section contact -->
+                        <div class="title">
+                            <h2 class="text-center title">Contact Me</h2>
+                        </div>
+                        <!--end title section contact -->
+
+                        <!--start description contact -->
+                        <p class="text-center description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eleifend, nisl ac suscipit dapibus, elit sem hendrerit lorem, nec fringilla ex massa at metus. Mauris non ullamcorper.
+                        </p>
+                        <!-- end description contact -->
+
+                        <!--start form contact -->
+                        <form class="contact-form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="bmd-label-floating">Your Name</label>
+                                        <input type="text" class="form-control" required="required">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="bmd-label-floating">Your Email</label>
+                                        <input type="email" class="form-control" required="required">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleMessage" class="bmd-label-floating">Your Message</label>
+                                <textarea type="text" class="form-control" rows="4" id="exampleMessage" required="required"></textarea>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 ml-auto mr-auto text-center">
+                                    <button class="btn btn-primary btn-raised">
+                                    Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                        <!--end form contact -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end contact -->
+
+        <!-- start footer -->
+        <footer class="footer">
+            <div class="container">
+
+                <!--start navigation footer -->
+                <nav class="float-left">
+                    <ul>
+                        <li>
+                            <a class="btn-home" href="javascript:void(0)" onclick="scrollToHome()">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a class="btn-about-me" href="javascript:void(0)" onclick="scrollToAboutMe()">
+                                About Me
+                            </a>
+                        </li>
+                        <li>
+                            <a class="btn-portfolio" href="javascript:void(0)" onclick="scrollToPortfolio()">
+                                Portfolio
+                            </a>
+                        </li>
+                        <li>
+                            <a class="btn-contact" href="javascript:void(0)" onclick="scrollToContact()">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!--end navigation footer -->
+
+                <!--start copyright -->
+                <div class="copyright float-right">
+                    &copy;
+                    <script>
+                    document.write(new Date().getFullYear())
+                    </script>, made with <i class="material-icons">favorite</i> by
+                    <a href="" target="_blank">Hmairi halim</a>
+                </div>
+                <!--end copyright -->
+
+            </div>
+        </footer>
+        <!-- end footer -->
+        <!--   Core JS Files   -->
+        <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+        <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+        <script src="./assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+        <script src="./assets/js/plugins/moment.min.js"></script>
+        <!-- Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+        <script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+        <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+        <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+        <!--  Plugin for Sharrre btn -->
+        <script src="./assets/js/plugins/jquery.sharrre.js" type="text/javascript"></script>
+        <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+        <script src="./assets/js/material-kit.js?v=2.0.4" type="text/javascript"></script>
+
+        <!-- animation portfolio -->
+        <script src="./assets/js/mixitup.min.js"></script>
+        <script src="./assets/js/portfolio.js"></script>
+        <!-- Scroll navigation -->
+        <script src="./assets/js/niceScroll.js" type="text/javascript"></script>
+
+    </body>
+</html>

@@ -1,0 +1,119 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+}
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1,h2,h3 {
+    margin:0;
+    padding: 0;
+    line-height: 60px;
+}
+h4,h5,h6 {
+    margin:0px;
+    padding: 0px;
+    line-height: 2;
+}
+span{
+    line-height: 2;
+}
+p{
+    line-height: 2;
+}
+.section-tabs{
+    background: #fafafa;
+}
+/*start home background image*/
+.page-header {
+    background-image: url('../image/faces/ttr.jpg');
+}
+
+/*end home ibackground image*/
+.btn-here-me{
+    border:2px solid #9124a3;
+    color: rgba(0,0,0,0);
+}
+/*Start services*/
+.info-services{
+    transition: 0.2s;
+}
+.info-services:hover{
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.2);
+}
+.info-services .icon i{
+    font-size: 70px;
+}
+/*End services*/
+.item-nav-portfolio {
+    cursor: pointer;
+}
+
+.blog-col {
+    transition: 0.2s;
+}
+
+.blog-col:hover {
+    cursor: pointer;
+    background: white;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.2);
+}
+.blog-picture{
+    height: 255px;
+}
+
+/*Start Goto Next home*/
+
+.next {
+    border: 0;
+    bottom: 0;
+    display: block;
+    height: 5em;
+    left: 50%;
+    margin: 0 0 0 -5em;
+    overflow: hidden;
+    position: absolute;
+    text-indent: 10em;
+    white-space: nowrap;
+    width: 10em;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.next:before {
+    background-image: url("../image/arrow.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+    display: block;
+    height: 1.5em;
+    left: 50%;
+    margin: -0.75em 0 0 -1em;
+    position: absolute;
+    top: 50%;
+    width: 2em;
+    z-index: 1;
+}
+/*End Goto Next home*/
+
+
+/*Start Ipad responsive*/
+@media (max-width: 768px) {
+.about .picture-personal img {
+        height: 400px;
+        width: 400px;
+    }
+}
+/*End Ipad responsive*/
